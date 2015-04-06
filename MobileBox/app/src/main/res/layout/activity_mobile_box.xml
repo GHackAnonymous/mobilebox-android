@@ -7,7 +7,7 @@
     android:clickable="true"
     android:focusableInTouchMode="true">
 
-<ImageView
+    <ImageView
         android:layout_width="240dp"
         android:layout_height="240dp"
         android:id="@+id/imagen"
@@ -40,16 +40,6 @@
         android:text="@string/boton_conectar"
         android:id="@+id/botonConectar"
         android:layout_below="@+id/campoNombre"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/etiquetaAyuda"
-        android:layout_below="@+id/botonConectar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
