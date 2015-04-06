@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobileBox</string>
+    <string name="boton_conectar">Konektatu</string>
+    <string name="campo_caja">Kutxa IDa</string>
+    <string name="campo_nombre">Zure izena</string>
+    <string name="error_caja_no_existe">Kutxa ID hori ez da zuzena. Saiatu berriro...</string>
+    <string name="action_settings">Ezarpenak</string>
+    <string name="menu_acerca_de">...buruz</string>
+    <string name="texto_licencia_imagenes"><![CDATA[<a href="http://www.freepik.com">Freepik-ek diseinatutako</a> irudiak.]]></string>
+    <string name="texto_copyright">\u00A9 2015 Ion Jaureguialzo Sarasola</string>
+    <string name="texto_github"><![CDATA[Iturburu kodea <a href="https://github.com/ijaureguialzo/mobilebox-android">GitHub</a>-en eskuragarri.]]></string>
+</resources>

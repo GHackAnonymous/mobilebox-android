@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MobileBox"
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+<ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:id="@+id/imagen"
+        android:src="@drawable/box"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campoCaja"
+        android:layout_below="@+id/imagen"
+        android:hint="@string/campo_caja"
+        android:gravity="center_horizontal"
+        android:inputType="textNoSuggestions"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campoNombre"
+        android:layout_below="@+id/campoCaja"
+        android:hint="@string/campo_nombre"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:inputType="textNoSuggestions|textCapWords" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_conectar"
+        android:id="@+id/botonConectar"
+        android:layout_below="@+id/campoNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/etiquetaAyuda"
+        android:layout_below="@+id/botonConectar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

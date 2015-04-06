@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.jaureguialzo.mobilebox.YouAreBoxed">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:id="@+id/imagen"
+        android:src="@drawable/box"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/etiquetaCaja"
+        android:layout_below="@+id/imagen"
+        android:hint="ID de caja"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/etiquetaNombre"
+        android:layout_below="@+id/etiquetaCaja"
+        android:gravity="center_horizontal"
+        android:hint="Nombre"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/etiquetaAyuda"
+        android:layout_below="@+id/etiquetaNombre"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

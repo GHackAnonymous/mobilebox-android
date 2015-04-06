@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobileBox</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="campo_caja">ID de caja</string>
+    <string name="campo_nombre">Tu nombre</string>
+    <string name="boton_conectar">Conectar</string>
+    <string name="error_caja_no_existe">El ID de caja no existe. Vuelve a intentarlo...</string>
+    <string name="menu_acerca_de">Acerca de...</string>
+    <string name="texto_licencia_imagenes"><![CDATA[Imágenes <a href="http://www.freepik.com">diseñadas por Freepik</a>.]]></string>
+    <string name="texto_copyright">\u00A9 2015 Ion Jaureguialzo Sarasola</string>
+    <string name="texto_github"><![CDATA[Código fuente disponible en <a href="https://github.com/ijaureguialzo/mobilebox-android">GitHub</a>.]]></string>
+</resources>
